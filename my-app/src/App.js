@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
+import NestingComponents from './components/NestingComponents';
+import MethodsAsPropsParent from './components/MethodsAsPropsParent';
+
 
 
 function App() {
   return (
     <div className="App">
-      <StatefulGreetingWithPrevState />
+      <MethodsAsPropsParent/>
     </div>
   );
 }
