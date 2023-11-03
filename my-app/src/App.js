@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import NestingComponents from './components/NestingComponents';
-import MethodsAsPropsParent from './components/MethodsAsPropsParent';
+import LifeCyclesCDU from './components/LifeCyclesCDU';
+
 
 
 
 function App() {
   return (
     <div className="App">
-      <MethodsAsPropsParent/>
+      <LifeCyclesCDU />
     </div>
   );
 }
