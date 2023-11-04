@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import LifeCyclesCWU from './components/LifeCyclesCWU';
+import SearchBar from './components/SearchBar';
+
 
 
 
@@ -8,7 +9,7 @@ import LifeCyclesCWU from './components/LifeCyclesCWU';
 function App() {
   return (
     <div className="App">
-      <LifeCyclesCWU/>
+      <SearchBar/>
     </div>
   );
 }
